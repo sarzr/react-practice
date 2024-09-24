@@ -5,7 +5,8 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="flex justify-between py-5 xl:max-w-[1340px] m-auto px-4">
+  <div className="w-full h-20 bg-White flex justify-center fixed top-0 z-20">
+      <div className="flex justify-between py-5 mx-auto px-4 max-w-[1340px] w-full bg-White">
       <div className="flex gap-2 items-center">
         <img className="w-6 h-5" src="/assets/images/Icon.png" alt="logo" />
         <h2 className="text-Secondary font-bold text-xl">Nexcent</h2>
@@ -95,6 +96,7 @@ function Header() {
         />
       </div>
     </div>
+  </div>
   );
 }
 

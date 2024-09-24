@@ -3,7 +3,7 @@ import { props } from "../types/main.d";
 function Button({ type, text, showSvg, className }: props) {
   return (
     <button
-      className={`bg-[#4AAA4D] text-White font-medium flex items-center gap-1 py-3 px-8 rounded-md text-sm ${className} `}
+      className={`bg-Green text-White hover:bg-Shade_2 active:bg-Shade_3 font-medium flex items-center gap-1 py-3 px-8 rounded-md text-sm ${className} `}
       type={type}
     >
       {text}

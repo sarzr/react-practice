@@ -10,9 +10,10 @@ function NewsCard({ img, img_title, title }: NewsCard) {
       <img className="w-full" src={img} alt={img_title} />
       <div className="bg-Silver shadow-NewCardShadow m-auto p-7 w-[85%] relative bottom-[73px] z-10 rounded-md">
         <h4 className="font-semibold text-Grey text-base">{title}</h4>
-        <h5 className="font-semibold text-base text-Primary flex gap-2 items-center justify-center mt-4 +++++++">
+        <h5 className="font-semibold text-base text-Primary flex gap-2 items-center justify-center mt-4 cursor-pointer">
           Readmore
           <svg
+            className="cursor-pointer"
             width="18"
             height="18"
             viewBox="0 0 18 18"

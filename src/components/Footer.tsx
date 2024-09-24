@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="bg-black w-full">
-      <div className="max-w-1400 m-auto py-16 lg:px-24 px-9 flex gap-3 justify-between flex-col md:flex-row gap-y-12">
+      <div className="max-w-1600 mx-auto py-16 lg:px-24 px-9 flex gap-3 justify-between flex-col md:flex-row gap-y-12">
         <div>
           <div className="flex gap-2 items-center mb-9">
             <img
@@ -171,7 +171,7 @@ function Footer() {
             </h5>
             <div className="relative">
               <input
-                className="placeholder-[#D9DBE1] bg-[#515B60] rounded-md px-5 py-3 placeholder:text-sm w-full"
+                className="placeholder-Grey_W bg-Grey_D rounded-md px-5 py-3 placeholder:text-sm w-full"
                 type="text"
                 placeholder="Your email address"
               />

@@ -27,7 +27,7 @@ function Customer() {
             <img src="/assets/images/Logo (3).png" alt="logo" />
             <img src="/assets/images/Logo (4).png" alt="logo" />
             <img src="/assets/images/Logo (5).png" alt="logo" />
-            <strong className="font-semibold text-Primary text-base md:text-lg flex gap-3 items-center">
+            <strong className="font-semibold text-Primary text-base md:text-lg flex gap-3 items-center cursor-pointer">
               Meet all customers
               <svg
               className="w-[18px] h-[17px]"

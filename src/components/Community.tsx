@@ -9,7 +9,7 @@ function Community() {
         </h2>
         <p className="text-Grey text-sm mt-2">Who is Nextcent suitable for?</p>
       </div>
-      <div className="flex justify-center text-center my-10 xl:gap-28 lg:gap-10 gap-4 flex-col items-center md:flex-row mx-2">
+      <div className="flex justify-center text-center my-10 xl:gap-28 lg:gap-10 gap-4 flex-col items-center md:flex-row mx-2 xl:mx-14">
         <CommunityCard
           img="/assets/images/Icon..png"
           img_title="Membership"

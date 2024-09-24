@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Unlock() {
   return (
-    <div className="flex justify-around items-center mb-12 flex-col md:flex-row">
+    <div className="flex justify-center gap-2 lg:gap-20 items-center mb-12 flex-col md:flex-row">
       <img
         className="lg:ml-16 w-[250px] h-[250px] md:w-[350px] md:h-[380px]"
         src="/assets/images/Frame 35.png"

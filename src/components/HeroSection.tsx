@@ -7,7 +7,7 @@ function HeroSection() {
         <div>
           <h1 className="font-semibold text-3xl md:text-[2.7rem] text-D_Grey leading-[53px] flex flex-col">
             Lessons and insights
-            <strong className="font-semibold text-[#4CAF4F]">
+            <strong className="font-semibold text-Green_L">
               from 8 years
             </strong>
           </h1>

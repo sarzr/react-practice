@@ -12,18 +12,20 @@ import Unlock from "./components/Unlock";
 
 function App() {
   return (
-    <div className="container max-w-[1600px] m-auto font-Inter">
+    <div className="font-Inter">
       <Header />
-      <HeroSection />
-      <Clients />
-      <Community />
-      <Unlock />
-      <Achievements />
-      <Calender />
-      <Customer />
-      <News />
-      <FooterTop />
-      <Footer/>
+      <div className="max-w-[1600px] mx-auto mt-20">
+        <HeroSection />
+        <Clients />
+        <Community />
+        <Unlock />
+        <Achievements />
+        <Calender />
+        <Customer />
+        <News />
+        <FooterTop />
+      </div>
+      <Footer />
     </div>
   );
 }
